@@ -1,3 +1,14 @@
+When('user press the menu icon') do
+    home.clickLeftMenu
+end
+  
+  Then('user should see the left menu') do
+    leftMenu.validateScreenCharged
+end
+
+Given('the user is logged in home screen') do
+    home.validateScreenCharged
+end
 
 Then("left unit picker should be {string}") do |string|
 

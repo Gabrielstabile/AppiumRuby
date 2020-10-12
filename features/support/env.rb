@@ -4,14 +4,14 @@ require_relative 'page_helper.rb'
 
 World(Screens)
 
-def caps 
+def caps
 { caps: {
         deviceName: "Any",
         platformName: "Android",
         app: (File.join(File.dirname(__FILE__), "../resources/PreciseUnitConversion.apk")),
         appPackage: "com.ba.universalconverter",
         appActivity: "MainConverterActivity",
-        newCommandTimeout: "3600"
+        newCommandTimeout: '3600'
     }
 }
 

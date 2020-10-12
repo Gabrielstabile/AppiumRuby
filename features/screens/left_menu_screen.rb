@@ -1,11 +1,12 @@
 class LeftMenu < BaseScreen
 
     def validateScreenCharged
-        validateElementIsDisplayed(:id, "category_list_drawer")
+      validate_element_is_displayed(:id, "category_list_drawer")
     end
 
     def clickMyConversionsIcon
-        @driver.find_element("My conversions").click
+      click_field_by_text('My conversion')
+      # @driver.find_element("My conversions").click
     end
     
 end

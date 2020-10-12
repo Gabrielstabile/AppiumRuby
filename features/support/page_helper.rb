@@ -1,6 +1,6 @@
 require_relative '../screens/base_screen.rb'
 
-# Dir[File.join(File.dirname(__F78ILE__),'../screens/*_screen.rb')].each { |file| require file }
+# Dir[File.join(File.dirname(__FILE__),'../screens/*_screen.rb')].each { |file| require file }
 
 # Modulos para chamar as classes instanciadas
 module Screens

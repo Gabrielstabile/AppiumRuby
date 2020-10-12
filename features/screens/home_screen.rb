@@ -1,13 +1,13 @@
 class HomeScreen < BaseScreen
 
     def validateScreenCharged
-        validateElementIsDisplayed(:id, "action_search")
-        validateElementIsDisplayed(:id, "action_bar")
-        validateElementIsDisplayed(:accessibility_id, "Open navigation drawer")
+        validate_element_is_displayed(:id, "action_search")
+        validate_element_is_displayed(:id, "action_bar")
+        validate_element_is_displayed(:accessibility_id, "Open navigation drawer")
     end
 
     def clickLeftMenu
-        clickField(:accessibility_id, "Open navigation drawer")
+        click_field(:accessibility_id, "Open navigation drawer")
     end
 
 end
